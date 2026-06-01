@@ -1,0 +1,11 @@
+print("Welcome to the Mood-Based Deltraune Song Generator")
+print("How are you feeling today?")
+print("Choose from: happy,sad,angry,tired,excited")
+
+mood == input("Enter your mood: ")
+
+mood == mood.lower()
+
+if mood == "happy":
+    print("I think you would like Tv World")
+elif mood == "sad":
