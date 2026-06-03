@@ -3,9 +3,15 @@ print("How are you feeling today?")
 print("Choose from: happy,sad,angry,tired,excited")
 
 mood == input("Enter your mood: ")
-
 mood == mood.lower()
 
 if mood == "happy":
     print("I think you would like Tv World")
 elif mood == "sad":
+    print("For you, Lost Girl is the answer")
+elif mood == "angry":
+    print("Lets yell with Vs Susie")
+elif mood == "tired":
+    print("The relaxing My Castle Town is what you need")
+elif mood == "excited":
+    print("")
