@@ -6,17 +6,17 @@ mood = input("Enter your mood: ")
 mood = mood.lower()
 
 if mood == "happy":
-    print("I think you would like Tv World")
+    print("😊 I think you would like Tv World")
 elif mood == "sad":
-    print("For you, Lost Girl is the answer")
+    print("❄️ For you, Lost Girl is the answer")
 elif mood == "angry":
-    print("Lets yell with Vs Susie")
+    print("😡 Lets yell with Vs Susie")
 elif mood == "tired":
-    print("The relaxing My Castle Town is what you need")
+    print("☺️ The relaxing My Castle Town is what you need")
 elif mood == "excited":
-    print("You Excited? Then Listen To TV Time!!!")
+    print(" 😃You Excited? Then Listen To TV Time!!!")
 elif mood == "[big shot]":
     name = input("what is your name: ")
-    print("HEY [",name,"] YOU [little sponge] LETS [be happy about] BIG SHOT!!")
+    print("😶 HEY [",name,"] YOU [little sponge] LETS [be happy about] BIG SHOT!!")
 else:
-    print("I dont know that one, choose one of the moods listed... OR [big shot]")
+    print("I dont know that one, choose one of the moods listed... OR [big shot]")   
