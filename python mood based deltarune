@@ -2,8 +2,8 @@ print("Welcome to the Mood-Based Deltraune Song Generator")
 print("How are you feeling today?")
 print("Choose from: happy,sad,angry,tired,excited")
 
-mood == input("Enter your mood: ")
-mood == mood.lower()
+mood = input("Enter your mood: ")
+mood = mood.lower()
 
 if mood == "happy":
     print("I think you would like Tv World")
@@ -14,4 +14,9 @@ elif mood == "angry":
 elif mood == "tired":
     print("The relaxing My Castle Town is what you need")
 elif mood == "excited":
-    print("")
+    print("You Excited? Then Listen To TV Time!!!")
+elif mood == "[big shot]":
+    name = input("what is your name: ")
+    print("HEY [",name,"] YOU [little sponge] LETS [be happy about] BIG SHOT!!")
+else:
+    print("I dont know that one, choose one of the moods listed... OR [big shot]")
