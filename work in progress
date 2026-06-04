@@ -1,0 +1,3 @@
+print("Welcome to your Daily Habit Tracker!")
+name = input("Whats's your name?")
+print("Hi", name, "Let's check off your habits for today)
