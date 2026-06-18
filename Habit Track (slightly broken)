@@ -1,0 +1,25 @@
+print("Welcome to your Daily Habit Tracker!")
+name = input("Whats's your name? ")
+print("Hi", name, "Let's check off your habits for today")
+
+habits = ["Play Deltarune Ch5", "Eat a Pizza", "Go to school"]
+
+for habit in habits:
+    response = input("Did you " + habit + " today? (yes/no): ")
+if response.lower() == "yes":
+    print("👍 Nice job on", habit + "!")
+else:
+    print("😒")
+    
+    while True:
+        print("\n--- Daily Habit Check ---")
+        for habit in habits:
+            response = input("Did you " + habit + " today? (yes/no): ")
+            if response.lower() == "yes":
+                print("👍 Nice job on", habit + "!")
+            else:
+                print("😒")
+                
+again = input("\nType 'done' to exit or press Enter to track again tomorrow: ")
+if again.lower() == "done":
+    print("See you tomorrow, " + name + "!")
