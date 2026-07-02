@@ -17,6 +17,7 @@ elif mood == "excited":
     print(" 😃You Excited? Then Listen To TV Time!!!")
 elif mood == "[big shot]":
     name = input("what is your name: ")
-    print("😶 HEY [",name,"] YOU [little sponge] LETS [be happy about] BIG SHOT!!")
+    name = name.upper()
+    print("😶 HEY [" + name + "] YOU [little sponge] LETS [be happy about] BIG SHOT!!")
 else:
-    print("I dont know that one, choose one of the moods listed... OR [big shot]")   
+    print("I dont know that one, choose one of the moods listed... OR [big shot]")  
